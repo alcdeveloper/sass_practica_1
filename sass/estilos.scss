@@ -1,0 +1,31 @@
+// Organizar los archivos
+@import "variables";
+@import "header";
+
+h1{
+	color:yellowgreen;
+}
+
+footer{
+	background:#444;
+	h4{
+		color:red;
+		a{
+		color:blue;
+		}
+	}
+}
+
+//variables
+section{
+	background:$colorUno;
+	h1{
+		background:$colorDos;
+	}
+	h2{
+		background:$colorTres;
+	}
+	p{
+		background:$colorCuatro;
+	}
+}
